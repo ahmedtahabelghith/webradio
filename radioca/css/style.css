@@ -1,0 +1,436 @@
+html {
+	overflow-y:scroll;
+}
+
+
+
+body {
+	padding:0px 0px 0px 0px;
+	background-color:#000000;
+	background-image:url(../images/maquette-web.jpg);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+.
+
+txt {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+.
+
+txt11 {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+}
+
+.txt10 {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+
+.
+
+txt10rouge {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#FF0000;
+	text-decoration:none;
+}
+
+.
+
+txtDedicace {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#666666;
+	background-color:#FFFFFF;
+	height:19px;
+	padding-top:3px;
+	width:840px;
+}
+
+.
+
+txtDedicaceTitre {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+.
+
+txtSinscrire {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.
+
+txtfooter {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+.
+
+txtblanc11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+.txtjaune11 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#F6D100;
+}
+
+.txtblanc10 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+.
+
+txtblanc9 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#FFFFFF;
+}
+
+.
+
+txtPodEmission {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.
+
+txtPoddate {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#000000;
+	text-decoration:underline;
+}
+
+.
+
+txtPodllib {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#AC0106;
+	font-weight:bold;
+}
+
+.txtProgramme {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#000000;
+}
+
+.txtProgrammeOrange {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#FF3800;
+	text-decoration:none;
+}
+
+.txtProgrammeGris {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666666;
+}
+
+.txtEmission {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#000000;
+	cursor:pointer;
+}
+
+.txtEmissionSelected {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#FF3800;
+	cursor:pointer;
+}
+
+.txtCligontant {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	float:left;
+}
+	
+.titreZoneMembre {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.titreZoneEmission {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.titreNews {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#FFFFFF;
+	width:409px;
+	height:53px;
+	background-image:url(../images/fondnewprincipal.png);
+	position:absolute;
+	padding-top:25px;
+	padding-left:25px;
+}
+
+
+.titreBox {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background-image:url(../images/topten.jpg);
+	text-align:center;
+}
+
+.titreRubrique {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:bold;
+	color:#FF3300;
+	border-bottom:1px dashed #000000;
+	padding-bottom:12px;
+}
+
+
+.lienmenu {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:white;
+	text-decoration:none;
+}
+
+.lienmenu:hover {
+	color:#F6D100;
+}
+
+.lienFooter {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;
+}
+
+.lienFooter:hover {
+	color:#ff6600;
+}
+
+.lienmbdesign {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.lienmbdesign:hover {
+	color:#FF33CC;
+}
+
+.lienSport {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:red;
+	text-decoration:none;
+}
+
+.lienSport:hover {
+	color:red;
+	font-size:20px;
+}
+
+.lienActu {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#666;
+	text-decoration:none;
+}
+
+.lienActu:hover {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#000;	
+}
+
+.lienSinscrire {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.lienSinscrire:hover {
+color:#F6D100;
+}
+
+
+.lienVote {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+.lienVote:hover {
+	color:#F6D100;
+}
+
+.zoneAnimateur {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.cadreBlancNews {
+	width:191px;
+	height:46px;
+	background-image:url(../images/fondnews.gif);
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	position:absolute;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+
+.cadreBlancNewsActif {
+	width:201px;
+	height:46px;
+	background-color:#FFF;
+	background-image:none;
+	color:#000;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+	position:absolute;
+	border-right:1px solid #000000;
+	border-bottom:1px solid #000000;
+}
+
+.cadreBlancNews:hover {
+	background-color:#FFF;
+	background-image:none;
+	color:#000;
+	position:absolute;
+	width:201px;
+}
+
+.cadreLive {
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:17px;
+}
+
+.cadreZoneMembre {
+	background-image:url(../images/fondnewprincipal.png);
+}
+
+.cadrefacebook {
+	border:1px solid #94A3C4;
+	background-color:#ECEFF5;
+	width : 316px;
+}
+
+.cadreGris {
+	border:1px solid #999999;
+	background-position:bottom; 
+	background-image:url(../images/fondanim.gif);
+	background-repeat:repeat-x;
+}
+
+.zoneemission {
+	padding-left:24px;
+}
+
+.zoneMembre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FFFFFF;
+	padding:5px;
+}
+
+
+.contenu {
+	padding-left:25px;
+	padding-top:25px;
+	padding-right:25px;
+	background-color:#FFFAF0
+}
+
+.formulaire {
+	width:166px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	border:1px solid #CCCCCC;
+}
+
+.formcontact {
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#3C4346;
+	border:1px #666 solid;
+}
+
+.inputdedicace {
+	width:145px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	border:1px solid #CCCCCC;
+}
+
+.thumb {
+ 	opacity: 0.8;
+  	filter: alpha(opacity=80); 
+}
+
+.thumb:hover {
+ 	opacity: 1.0;
+  	filter: alpha(opacity=100);
+}
+
+.zonelien {
+	cursor:pointer;
+}
+.zonepub1 {
+
+	width:212px;
+	height: 181px;
+}

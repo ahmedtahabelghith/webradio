@@ -1,0 +1,98 @@
+<html>
+
+<head>
+<title>Equipes</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<style>
+        th{
+        background-color: bisque;
+        border-radius: 3px 3x 3px 3px;
+        
+}
+.t{
+    background-color:gainsboro ;
+    border-radius: 3px 3px 3px 3px ;
+}
+.a{
+  border-radius: 4px 4px 4px 4px ; 
+ 
+}
+.b
+{
+  border-radius: 4px 4px 4px 4px ; 
+  border: 1px black dashed ;
+  
+  
+ 
+}
+    </style>
+</head>
+<body>
+    <script>
+    function f1()
+    {   
+        var a=document.getElementById('id').value;
+        var b=document.getElementById('nom').value;
+        var c=document.getElementById('adresse').value;
+        var d=document.getElementById('telephone').value;
+        
+        var f=document.getElementById('email').value;
+       
+       
+       
+        if(a=="")
+        {
+            alert('Champs id vide');
+            return false;
+        }
+        else if(b=="")
+        {
+            alert('Champs nom vide');
+            return false;
+        }
+        else if(c=="")
+        {
+            alert('Champs adresse vide');
+            return false;
+        }
+        else if(d=="")
+        {
+            alert('Champs telephone vide');
+            return false;
+        }
+       
+         else if(f=="")
+        {
+            alert('Champs Email vide');
+            return false;
+        }
+        
+        else
+        {
+        alert('Enregistré avec succes !');
+    return true ;
+        }}
+   </script>   
+   <form method="POST" action="./Equipes.php">
+    
+    <fieldset class='b' style="width:550px;"><legend><h3> Equipes </h3></legend>
+    <table align="center">
+
+<tr><td><img src="logos/id.png" width="15" height="15"> &nbspId</td>
+    <td><input type="text" name="id" value="" id="id" class="a"></td></tr>
+<tr><td><img src="logos/id.png" width="15" height="15"> &nbspNom</td>
+<td><input type="text" name="nom" value="" id="nom" class="a"></td></tr>
+<tr><td><img src="logos/adress.png" width="15" height="15"> &nbspAdresse</td>
+    <td><input type="text" name="adresse" value="" id="adresse" class="a"></td></tr>
+<tr><td><img src="logos/phone.png" width="15" height="15"> &nbspTelephone</td>
+    <td><input type="text" name="telephone" value="" id="telephone" class="a"></td></tr>
+
+
+
+<tr><td>&nbsp&nbsp<img src="logos/save.png" width="15" height="15"> &nbsp <input type="submit" name="valider" value="S'inscrire" class="a" onclick="return f1()" ></td>
+   
+</tr>
+    </table></fieldset>
+</form>
+</body>
